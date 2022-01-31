@@ -1,6 +1,8 @@
 /**
  * Create a Backpack object, populate some HTML to display its properties.
  */
+
+// Vou usar função previamente criada
 import backpack from "./backpack.js";
 
 const markup = (backpack) => {

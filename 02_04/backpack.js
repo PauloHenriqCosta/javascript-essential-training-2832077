@@ -25,4 +25,5 @@ const backpack = {
   },
 };
 
+// This function can be used by others like an object
 export default backpack;

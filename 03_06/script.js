@@ -22,3 +22,16 @@ const backpack = {
 };
 
 console.log("The backpack object:", backpack);
+console.log("The pcketNum value:", backpack.pocketNum); //this is call .(dot) notation
+console.log("Strap lenght L:", backpack.strapLength.left);
+
+
+//Using bracket notation (allow to do more advanced things):cases we need more control
+
+//wrap property name in a cotation because it is a string
+
+//bracket notation permits to use date notation in a variaty of formats.
+
+var query= "pocketNum"; //passing the property value as a variable
+console.log("The pcketNum value:", backpack[query]); //square backet
+

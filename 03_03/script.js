@@ -2,8 +2,9 @@
  * Create a Backpack object.
  */
 
+//constance we can't change to something entirely different (only properties)
 const backpack = {
-  name: "Everyday Backpack",
+  name: "Everyday Backpack",    //properties: differents aspects of object.
   volume: 30,
   color: "grey",
   pocketNum: 15,
